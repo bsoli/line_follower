@@ -1,0 +1,4 @@
+<launch>
+    <node name="line_follower" pkg="line_follower" type="follower_p.py"/>
+    <node name="no_vision_move" pkg="line_follower" type="no_vision_move.py"/>
+</launch>
